@@ -1,0 +1,22 @@
+import React, { Component } from 'react';
+export const settingsContext = React.createContext();
+
+export default class settings extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      itemsPerPage: 2,
+      sort: 'Ascending',
+      show: true, 
+    };
+  }
+
+  render() {
+    return (
+      <settingsContext.Provider value={this.state}>
+        {this.props.children}
+      </settingsContext.Provider>
+    );
+  }
+}

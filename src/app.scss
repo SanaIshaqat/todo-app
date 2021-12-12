@@ -1,0 +1,87 @@
+@import '~normalize.css';
+@import '~@blueprintjs/core/lib/css/blueprint.css';
+@import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
+
+.header {
+  background-color: #303442;
+  height:80px;
+  
+ 
+ 
+}
+h2{
+    color:rgb(255, 251, 238)
+
+}
+h3{
+    color: rgb(58, 53, 53);
+}
+#h2{
+    background-color: #303442;
+    color:rgb(255, 251, 238);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.main {
+  margin: 5%;
+  .list{
+      color:rgb(255, 251, 238)
+  }
+
+  .mainCards {
+    margin: 5% !important;
+  
+
+    .mainItem {
+      margin-bottom: 50px !important;
+      float: left;
+      background-color:#7ca7bb;
+      padding-top: 30px;
+      padding-left: 20px;
+      padding-right: 20px;
+      .button{
+         margin-top: 10px;
+         margin-left: 80px;
+      }
+      .diff{
+        margin-top: 20px;
+        padding-right: 20px;
+
+      }
+    
+    }
+    .mainItem2 {
+      margin-bottom: 50px !important;
+      margin-left: 400px !important;
+      background-color:#194264;
+    }
+
+    .listCard {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 20px;
+    }
+
+    .pages {
+      margin-left: 400px !important;
+    }
+  }
+}
+body{
+    background-color: rgb(255, 251, 238);
+    height:100px;
+}
+
+
+footer {
+    background:#303442;
+    border-top: 1px solid #eee;
+    padding: 1em 3em;
+    margin-top: 500px;
+    text-align:center;
+    color: rgb(255, 251, 238)
+  }
