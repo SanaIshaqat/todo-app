@@ -40,7 +40,7 @@ Retrieve their preferences from Local Storage and apply them to the application 
 
 ### Links and Resources:
 
-[Branch context-settings](https://github.com/SanaIshaqat/todo-app/context-methods)
+[Branch context-methods](https://github.com/SanaIshaqat/todo-app/context-methods)
 
 [gh-Pages Link LAB-32](https://sanaishaqat.github.io/todo-app/)
 
