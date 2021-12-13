@@ -10,7 +10,17 @@ export default function Header() {
         <Navbar.Group top-margin={10 }>
             <Navbar.Heading ><h2>To-Do List App</h2></Navbar.Heading>
             <Navbar.Divider />
-            <Button className="bp4-minimal" icon="list" text="Home" />
+            <a href="/todo-app">
+            <Button className="bp4-minimal" icon="home" text="Home" />
+            </a>
+            <a href='/settings'>
+            <Button className="bp4-minimal" icon="settings" text="Settings" />
+            </a>
+            {/* <a href='/complete'>
+            <Button className="bp4-minimal" icon="saved" text="Completed" />
+            </a> */}
+            
+         
         </Navbar.Group>
     </Navbar>
     </>

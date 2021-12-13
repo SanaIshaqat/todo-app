@@ -86,14 +86,16 @@ export default function List(props) {
           </Button>
         );
       }
-  
+     
       return <div className="pages"> {pagesArr} </div>;
     };
   
     return (
       <div>
+      
         <Card className="mainItem2">
           <h3 className="list">Items List</h3>
+          {console.log(activeList)}
           {activeList.map((item) => (
             <Card
               className="listCard"
@@ -101,6 +103,7 @@ export default function List(props) {
               elevation={Elevation.THREE}
               key={item.id}
             >
+               
               <h3>
                 <b>{item.text} </b>
               </h3>
@@ -121,6 +124,7 @@ export default function List(props) {
               >
                 Complete : {item.complete.toString()}
               </Button>
+              <Button  onClick={() => props.deleteItem(item.id)} type="submit"  intent="danger" text="delete" />
             </Card>
           ))}
         </Card>
