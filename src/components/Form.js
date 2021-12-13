@@ -1,18 +1,18 @@
 import React from 'react';
 import { Card, Button, FormGroup, InputGroup } from '@blueprintjs/core';
 
-export default function Form({ handleSubmit, handleChange }) {
+export default function Form(props) {
   return (
     <Card className="mainItem" interactive={true}>
       <h3 class="list">Add A Task To Your List </h3>
       <br></br>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={props.handleSubmit}>
         <FormGroup labelFor="text-input" labelInfo="(required)">
           <label><b>To Do Item</b></label>
           <br></br>
           <br></br>
           <InputGroup
-            onChange={handleChange}
+            onChange={props.handleChange}
             name="text"
             id="text-input"
             placeholder="Item Details"
@@ -22,27 +22,31 @@ export default function Form({ handleSubmit, handleChange }) {
           <br></br>
           <br></br>
           <InputGroup
-            onChange={handleChange}
+            onChange={props.handleChange}
             name="assignee"
             id="text-input"
             placeholder="Assignee Name"
           />
-           <br></br>
-          <div className='diff'>
-          <lable><b>Difficulty</b></lable>
           <br></br>
-          <input
-            onChange={handleChange}
-            defaultValue={2}
-            type="range"      
-            min={1}
-            max={5}
-            name="difficulty"
-          />
+          <div className='diff'>
+            <lable><b>Difficulty</b></lable>
+            <br></br>
+            <input
+              onChange={props.handleChange}
+              defaultValue={2}
+              type="range"
+              min={1}
+              max={10}
+              name="difficulty"
+            />
           </div>
-<div >
-          <Button className='button' type="submit">Add Item</Button>
+          <div >
+            <Button className='button' type="submit">Add Item</Button>
           </div>
+
+          <Button className='button' type="submit" onClick={props.completed}>
+          View Completed Items
+        </Button>
         </FormGroup>
       </form>
     </Card>
