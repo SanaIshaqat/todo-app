@@ -69,6 +69,9 @@ In Phase 3, we’d like to extend the functionality of the application by requir
 
 [gh-Pages Link LAB-33](https://sanaishaqat.github.io/todo-app/)
 
+You Can Login as an Admin Using 
+UserName: sana | Password: sana
+
 [pull request LAB-33](https://github.com/SanaIshaqat/todo-app/pull/3)
 
 
