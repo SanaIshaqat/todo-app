@@ -35,7 +35,6 @@ const ToDo = () => {
       }
       return item;
     });
-
     setList(items);
   }
 
@@ -56,7 +55,6 @@ const ToDo = () => {
     setComplete(true);
     setArrayComplete(arr);
     console.log(arr);
-
   }
 
   return (
