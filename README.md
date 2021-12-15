@@ -74,4 +74,17 @@ UserName: sana | Password: sana
 
 [pull request LAB-33](https://github.com/SanaIshaqat/todo-app/pull/3)
 
+## Phase 4 Requirements-Lab34
+In Phase 4, we will finalize the functionality of the application by connecting to live servers for login, authorization, and data access
+### Links and Resources:
 
+[Branch lab34](https://github.com/SanaIshaqat/todo-app/lab34)
+
+
+You Can sign-up 
+[backend repo](https://github.com/SanaIshaqat/todo-app-backend)
+[backend repo heroku](https://sana-401-todo-app.herokuapp.com)
+
+[pull request LAB-34](https://github.com/SanaIshaqat/todo-app/pull/4)
+
+https://github.com/SanaIshaqat/todo-app-backend
